@@ -1,0 +1,31 @@
+html {
+    background-color: rgb(255, 100, 100);
+}
+
+#title {
+    font-family: 'Bungee Shade', cursive;
+    text-align: center;
+    margin: 50px 310px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 2px 5px 10px #b4ffff;
+}
+
+#container {
+    margin: 0 auto;
+    background-color: black;
+    height: 512px;
+    width: 512px;
+    display: grid;
+    grid-template-columns: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+    grid-template-rows: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+}
+
+.gridTile {
+    background-color: #b4ffff;
+    display: grid;
+    height: 32px;
+    width: 32px;
+    border: 1px solid black;
+}
