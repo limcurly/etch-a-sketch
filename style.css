@@ -20,6 +20,7 @@ html {
     display: grid;
     grid-template-columns: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
     grid-template-rows: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+    box-shadow: 2px 5px 50px #90fafa4f;
 }
 
 .gridTile {
@@ -29,3 +30,13 @@ html {
     width: 32px;
     border: 1px solid black;
 }
+
+#reset-btn {
+    background-color: rgb(56, 134, 98);
+    color: white;
+    font-weight: bolder;
+    padding: 5px;
+    border: 3px solid white;
+
+}
+
