@@ -12,4 +12,9 @@ added drawing and reset button;
 TODO: 
 
 MAKE RESET BUTTON RESET TO GRIDS
-MAKE REESET BUTTON PROMPT USER TO CHOOSE GRID PERIMETER;
+MAKE RESET BUTTON PROMPT USER TO CHOOSE GRID PERIMETER;
+
+
+v1.2:
+reset button with prompt fully functional
+

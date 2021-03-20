@@ -1,42 +1,82 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
 html {
-    background-color: rgb(255, 100, 100);
+    background-color: rgb(95, 10, 74);
+}
+
+@media screen and (max-width: 900px) {
+    #title {
+        margin: auto;
+        padding: auto;
+    }
+
+    #container {
+        width: 350px;
+        height: 350px;
+    }
 }
 
 #title {
     font-family: 'Bungee Shade', cursive;
     text-align: center;
-    margin: 50px 310px;
+    margin: 30px 310px;
+    padding: 30px;
     background-color: white;
     border-radius: 10px;
     border: 2px solid black;
-    box-shadow: 2px 5px 10px #b4ffff;
+    box-shadow: 2px 5px 10px #dfd9c2;
+}
+
+#title-btn {
+    
 }
 
 #container {
-    margin: 0 auto;
+    margin: auto;
     background-color: black;
     height: 512px;
     width: 512px;
     display: grid;
-    grid-template-columns: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
-    grid-template-rows: 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px 32px;
+    grid-template-columns: repeat(16, 32px);
+    grid-template-rows: repeat(16, 32px);
     box-shadow: 2px 5px 50px #90fafa4f;
+}
+
+.newContainer {
+    margin: auto;
+    background-color: black;
+    height: 512px;
+    width: 512px;
+    display: grid;
+    box-shadow: 2px 3px 50px #90fafa4f;
+
 }
 
 .gridTile {
     background-color: #b4ffff;
     display: grid;
-    height: 32px;
-    width: 32px;
-    border: 1px solid black;
+    height: auto;
+    width: auto;
+    border: 0.1px solid black;
+}
+
+#btn {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 #reset-btn {
-    background-color: rgb(56, 134, 98);
-    color: white;
+    background-color: white;
+    color: black;
     font-weight: bolder;
     padding: 5px;
-    border: 3px solid white;
-
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 2px 1px 10px #dfd9c2;
 }
+
+
 
