@@ -7,27 +7,24 @@ html {
     background-color: rgb(95, 10, 74);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 450px) {
     #title {
-        margin: auto;
-        padding: auto;
+      text-align: left;
     }
-
-    #container {
-        width: 350px;
-        height: 350px;
+  
+    .grid {
+      max-width: 300px;
+      min-height: 300px;
     }
-}
+  }
 
 #title {
     font-family: 'Bungee Shade', cursive;
+    font-size: 70px;
     text-align: center;
     margin: 30px 310px;
-    padding: 30px;
-    background-color: white;
-    border-radius: 10px;
-    border: 2px solid black;
-    box-shadow: 2px 5px 10px #dfd9c2;
+    padding: 10px;
+    color: rgb(197, 109, 197);
 }
 
 #title-btn {
@@ -69,6 +66,16 @@ html {
 }
 
 #reset-btn {
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10%;
+    box-shadow: 2px 1px 10px #dfd9c2;
+}
+
+#rgb-btn {
     background-color: white;
     color: black;
     font-weight: bolder;
